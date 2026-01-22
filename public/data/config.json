@@ -1,0 +1,26 @@
+{
+  "adminPassword": "MHS2026Parking",
+  "applicationName": "MHS Parking Portal",
+  "schoolName": "Marlboro High School",
+  "academicYear": "2026-2027",
+  "registrationDeadline": "2026-07-15",
+  "contactEmail": "parking@marlboro.edu",
+  "contactPhone": "(555) 123-4567",
+  "parkingLots": [
+    {
+      "name": "Lot A",
+      "totalSpots": 10,
+      "description": "North Parking Lot"
+    },
+    {
+      "name": "Lot B",
+      "totalSpots": 10,
+      "description": "South Parking Lot"
+    },
+    {
+      "name": "Lot C",
+      "totalSpots": 10,
+      "description": "East Parking Lot"
+    }
+  ]
+}
