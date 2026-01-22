@@ -11,6 +11,7 @@
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="public/css/styles.css">
+  <link rel="stylesheet" href="public/css/home.css">
 </head>
 
 <body class="light-mode">
@@ -44,51 +45,128 @@
 
   <!-- Main Content -->
   <main class="container py-5">
-    <div class="row align-items-center mb-5">
-      <div class="col-md-6">
-        <h1 class="section-title">Marlboro High School Senior Parking</h1>
-        <p class="lead">Welcome to the official parking spot selection portal for rising seniors at MHS.</p>
-        <p>Reserve your parking spot for the upcoming school year and ensure convenient parking throughout your final year
-          at Marlboro High School.</p>
-        <a href="parking.html" class="btn btn-primary btn-lg">Select Your Spot</a>
-      </div>
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-body text-center">
-            <h2 class="text-secondary">🅿️</h2>
-            <p class="card-text">Easy parking spot selection and registration</p>
+    <!-- Hero Section -->
+    <section class="hero-section mb-5">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <h1 class="hero-title">Marlboro High School<br>Senior Parking Portal</h1>
+          <p class="hero-subtitle">Secure your parking spot for the 2026-2027 school year</p>
+          <p class="hero-description">Welcome to the official parking spot selection portal for rising seniors at MHS. 
+            Reserve your preferred parking spot online and receive instant confirmation.</p>
+          <div class="hero-buttons">
+            <a href="parking.html" class="btn btn-primary btn-lg me-3">
+              🅿️ Select Your Spot
+            </a>
+            <a href="#how-it-works" class="btn btn-outline-primary btn-lg">
+              Learn More
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="hero-card">
+            <div class="hero-icon">🅿️</div>
+            <p class="hero-card-text">Easy online parking selection and instant confirmation</p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Overview Section -->
-    <section class="mb-5">
-      <h2 class="section-title">How It Works</h2>
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="mb-5 py-5 bg-light-section">
+      <h2 class="section-title text-center mb-5">How It Works</h2>
       <div class="row">
         <div class="col-md-4 mb-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title text-secondary">1. Select Your Spot</h5>
-              <p class="card-text">Browse our interactive parking lot map and choose your preferred parking spot from available
-                options.</p>
+          <div class="card process-card h-100">
+            <div class="process-number">1</div>
+            <div class="card-body text-center">
+              <h5 class="card-title text-secondary">Select Your Spot</h5>
+              <p class="card-text">
+                Browse our interactive parking lot map and choose your preferred parking spot from available 
+                options. Each lot displays real-time availability.
+              </p>
             </div>
           </div>
         </div>
         <div class="col-md-4 mb-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title text-secondary">2. Fill Out Form</h5>
-              <p class="card-text">Complete your student information and confirm your partner (if applicable) for shared
-                parking spots.</p>
+          <div class="card process-card h-100">
+            <div class="process-number">2</div>
+            <div class="card-body text-center">
+              <h5 class="card-title text-secondary">Complete Registration</h5>
+              <p class="card-text">
+                Fill out your student information, confirm your parking partner (if applicable), 
+                and agree to parking guidelines.
+              </p>
             </div>
           </div>
         </div>
         <div class="col-md-4 mb-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title text-secondary">3. Get Confirmation</h5>
-              <p class="card-text">Receive instant confirmation of your parking assignment with all relevant details.</p>
+          <div class="card process-card h-100">
+            <div class="process-number">3</div>
+            <div class="card-body text-center">
+              <h5 class="card-title text-secondary">Get Confirmation</h5>
+              <p class="card-text">
+                Receive instant confirmation of your parking assignment with all relevant details. 
+                Print or save your confirmation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shared Spot Explanation -->
+    <section id="shared-spots" class="mb-5 py-5">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <h2 class="section-title">Shared Parking Spots</h2>
+          <p class="lead">Some parking spots can be shared between two students on different days.</p>
+          <div class="shared-spot-info">
+            <div class="info-item mb-3">
+              <h5 class="text-secondary">📅 How Shared Spots Work</h5>
+              <p>A shared spot can accommodate two students with different parking schedules:</p>
+              <ul class="list-unstyled ms-3">
+                <li>✓ <strong>Schedule A:</strong> Monday, Wednesday, Friday</li>
+                <li>✓ <strong>Schedule B:</strong> Tuesday, Thursday</li>
+              </ul>
+            </div>
+            <div class="info-item mb-3">
+              <h5 class="text-secondary">🤝 Coordinate with Your Partner</h5>
+              <p>You'll be paired with a specific student during registration. Communication and mutual respect 
+                ensure smooth spot sharing throughout the year.</p>
+            </div>
+            <div class="info-item">
+              <h5 class="text-secondary">💡 Why We Share</h5>
+              <p>Limited parking space means shared spots maximize availability for all seniors while ensuring 
+                everyone has convenient access to a parking spot on their designated days.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="shared-spot-visual">
+            <div class="spot-calendar">
+              <div class="calendar-header">Shared Spot #A-4</div>
+              <div class="calendar-body">
+                <div class="calendar-day">
+                  <div class="day-label">Mon</div>
+                  <div class="day-person">Your Name</div>
+                </div>
+                <div class="calendar-day">
+                  <div class="day-label">Tue</div>
+                  <div class="day-person">Partner Name</div>
+                </div>
+                <div class="calendar-day">
+                  <div class="day-label">Wed</div>
+                  <div class="day-person">Your Name</div>
+                </div>
+                <div class="calendar-day">
+                  <div class="day-label">Thu</div>
+                  <div class="day-person">Partner Name</div>
+                </div>
+                <div class="calendar-day">
+                  <div class="day-label">Fri</div>
+                  <div class="day-person">Your Name</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -96,72 +174,232 @@
     </section>
 
     <!-- Rules Section -->
-    <section class="mb-5">
-      <h2 class="section-title">Parking Rules & Guidelines</h2>
-      <div class="card">
-        <div class="card-body">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              <strong>Valid ID Required:</strong> All parking spots require a valid MHS parking permit.
-            </li>
-            <li class="list-group-item">
-              <strong>Shared Spots:</strong> Some spots can be shared between two students on different days.
-            </li>
-            <li class="list-group-item">
-              <strong>No Transferring:</strong> Parking spots cannot be transferred or sold to other students.
-            </li>
-            <li class="list-group-item">
-              <strong>School Parking Rules Apply:</strong> All MHS parking lot rules and regulations remain in effect.
-            </li>
-            <li class="list-group-item">
-              <strong>Deadline:</strong> All parking selections must be completed by [Insert Date].
-            </li>
-          </ul>
+    <section id="rules" class="mb-5 py-5 bg-light-section">
+      <h2 class="section-title text-center mb-5">Parking Rules & Guidelines</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="rule-card">
+            <div class="rule-icon">📋</div>
+            <h5 class="rule-title">Requirements</h5>
+            <ul class="list-unstyled">
+              <li>✓ Must be a rising senior at MHS</li>
+              <li>✓ Valid student ID required</li>
+              <li>✓ Parking permit must be displayed</li>
+              <li>✓ No transferring spots to other students</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="rule-card">
+            <div class="rule-icon">⚠️</div>
+            <h5 class="rule-title">Important Rules</h5>
+            <ul class="list-unstyled">
+              <li>✓ No reserved spots outside parking lot</li>
+              <li>✓ Follow all MHS parking lot regulations</li>
+              <li>✓ No blocking other vehicles</li>
+              <li>✓ Respect shared spot schedules</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="rule-card">
+            <div class="rule-icon">📞</div>
+            <h5 class="rule-title">Need Changes?</h5>
+            <ul class="list-unstyled">
+              <li>✓ Contact admin after deadline for modifications</li>
+              <li>✓ Changes subject to availability</li>
+              <li>✓ Email: parking@marlboro.edu</li>
+              <li>✓ Phone: (555) 123-4567</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="rule-card">
+            <div class="rule-icon">⏰</div>
+            <h5 class="rule-title">Important Dates</h5>
+            <ul class="list-unstyled">
+              <li>✓ Registration opens: June 1, 2026</li>
+              <li>✓ Registration deadline: July 15, 2026</li>
+              <li>✓ Late registrations: By appointment</li>
+              <li>✓ School year starts: August 26, 2026</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="mb-5 py-5">
+      <h2 class="section-title text-center mb-5">Timeline & Important Dates</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="timeline-dot"></span>
+          </div>
+          <div class="timeline-content">
+            <h5 class="timeline-date">June 1, 2026</h5>
+            <p class="timeline-title">Registration Portal Opens</p>
+            <p class="timeline-description">The parking spot selection portal becomes available to all rising seniors.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="timeline-dot"></span>
+          </div>
+          <div class="timeline-content">
+            <h5 class="timeline-date">June 15, 2026</h5>
+            <p class="timeline-title">Early Registration Deadline</p>
+            <p class="timeline-description">Early submissions may receive priority spot selection.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="timeline-dot"></span>
+          </div>
+          <div class="timeline-content">
+            <h5 class="timeline-date">July 15, 2026</h5>
+            <p class="timeline-title">Final Registration Deadline</p>
+            <p class="timeline-description">Last day to register for a parking spot. Late registrations require appointment.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="timeline-dot"></span>
+          </div>
+          <div class="timeline-content">
+            <h5 class="timeline-date">August 1, 2026</h5>
+            <p class="timeline-title">Confirmation Emails Sent</p>
+            <p class="timeline-description">All registered students receive official parking confirmations via email.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="timeline-dot"></span>
+          </div>
+          <div class="timeline-content">
+            <h5 class="timeline-date">August 26, 2026</h5>
+            <p class="timeline-title">School Year Begins</p>
+            <p class="timeline-description">First day of school. All parking spots active and in use.</p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- FAQ Section -->
-    <section class="mb-5">
-      <h2 class="section-title">Frequently Asked Questions</h2>
-      <div class="accordion" id="faqAccordion">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-              Can I share a parking spot?
-            </button>
-          </h2>
-          <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              Yes! Certain spots are designated for sharing between two students. You'll select your assigned days when
-              registering.
+    <section id="faq" class="mb-5 py-5 bg-light-section">
+      <h2 class="section-title text-center mb-5">Frequently Asked Questions</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq1">
+                  Can I choose who my parking partner is?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  No, parking partners are assigned based on schedule availability and proximity to ensure fair 
+                  distribution. However, you can contact the administration to request reasonable accommodations.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq2">
+                  What if all spots are taken when I register?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  The system prevents overbooking, but if you encounter an issue, contact the administration office. 
+                  Limited overflow spots and waitlist options may be available.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq3">
+                  Can I change my parking spot after registration?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Changes can be requested after the deadline, subject to availability. Contact the administration 
+                  office to discuss your situation. Early-registered spots may have change restrictions.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq4">
+                  What happens if my parking partner doesn't follow the schedule?
+                </button>
+              </h2>
+              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Report violations to the administration office immediately. They will investigate and take 
+                  appropriate action to resolve spot conflicts.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq5">
+                  Is there a fee for parking registration?
+                </button>
+              </h2>
+              <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  No, parking spot registration is free for all rising seniors. Only a valid student ID is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq6">
+                  What if I don't have internet access to register?
+                </button>
+              </h2>
+              <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Contact the administration office for in-person registration appointments. They can help you 
+                  select and confirm your parking spot.
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#faq2">
-              What if all spots are taken?
-            </button>
-          </h2>
-          <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              Contact the school administration office. Limited backup spots may be available.
-            </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5 mb-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <h3 class="text-white mb-0">Ready to secure your parking spot?</h3>
+            <p class="text-white mb-0 small">Select your spot today and get instant confirmation.</p>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#faq3">
-              Can I change my spot later?
-            </button>
-          </h2>
-          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              Contact the administration office to request a spot change. Changes may be limited after the deadline.
-            </div>
+          <div class="col-md-4 text-end">
+            <a href="parking.html" class="btn btn-light btn-lg">
+              Get Started →
+            </a>
           </div>
         </div>
       </div>
