@@ -127,6 +127,24 @@
   box-shadow: 0 4px 10px rgba(243, 146, 0, 0.3);
 }
 
+/* Process card body padding to avoid number overlap */
+.process-card .card-body {
+  padding-top: 3rem;
+}
+
+.process-card .card-title {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.process-card .card-text {
+  color: #555;
+}
+
+.dark-mode .process-card .card-text {
+  color: #ddd;
+}
+
 /* Shared Spot Section */
 .shared-spot-info {
   background-color: #f0f8ff;
@@ -146,6 +164,21 @@
 
 .info-item h5 {
   margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.dark-mode .info-item h5 {
+  color: var(--secondary-color);
+}
+
+.info-item p,
+.info-item ul {
+  color: #333;
+}
+
+.dark-mode .info-item p,
+.dark-mode .info-item ul {
+  color: #ddd;
 }
 
 .info-item ul {
@@ -272,6 +305,11 @@
   padding: 0.5rem 0;
   text-align: left;
   font-size: 0.95rem;
+  color: #333;
+}
+
+.dark-mode .rule-card ul li {
+  color: #ddd;
 }
 
 /* Timeline Section */
@@ -410,6 +448,20 @@
   font-weight: 600;
   margin-bottom: 0.5rem;
   color: var(--light-text);
+}
+
+.dark-mode .timeline-title {
+  color: var(--dark-text);
+}
+
+.timeline-description {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.dark-mode .timeline-description {
+  color: #aaa;
+}
 }
 
 .dark-mode .timeline-title {

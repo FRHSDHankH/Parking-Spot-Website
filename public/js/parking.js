@@ -59,10 +59,11 @@ function loadParkingData() {
  * @param {string} lot - Lot identifier (e.g., 'Lot A')
  */
 function renderLot(lot) {
-  const lotKey = lot.toLowerCase().replace(' ', '');
+  // Convert "Lot A" to "lotA" format for JSON key lookup
+  const lotKey = 'lot' + lot.split(' ')[1];
   
   if (!parkingData[lotKey]) {
-    console.error('✗ Lot not found:', lot);
+    console.error('✗ Lot not found:', lot, 'key:', lotKey);
     return;
   }
 
@@ -319,7 +320,9 @@ function updateLotButtons(lot) {
  * Update and display availability statistics
  */
 function updateAvailabilityStats() {
-  const lotKey = currentLot.toLowerCase().replace(' ', '');
+  // Convert "Lot A" to "lotA" format for JSON key lookup
+  const lotKey = 'lot' + currentLot.split(' ')[1];
+  
   if (!parkingData[lotKey]) return;
 
   const spots = parkingData[lotKey].spots;

@@ -38,6 +38,28 @@ body.dark-mode {
   color: var(--dark-text);
 }
 
+/* Ensure all text is visible in dark mode */
+.dark-mode p,
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6,
+.dark-mode li,
+.dark-mode span,
+.dark-mode a {
+  color: var(--dark-text);
+}
+
+.dark-mode a {
+  color: #66b3ff;
+}
+
+.dark-mode a:hover {
+  color: var(--secondary-color);
+}
+
 /* ============================================================
    NAVBAR STYLES
    ============================================================ */

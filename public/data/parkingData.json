@@ -1,24 +1,26 @@
 {
   "lotA": {
     "name": "Lot A",
+    "totalSpots": 150,
+    "description": "North Parking Lot",
     "spots": [
       {
         "id": "A-1",
         "status": "available",
-        "type": "solo",
+        "type": "shared",
         "assignedTo": null
       },
       {
         "id": "A-2",
         "status": "available",
-        "type": "solo",
+        "type": "shared",
         "assignedTo": null
       },
       {
         "id": "A-3",
-        "status": "taken",
-        "type": "solo",
-        "assignedTo": "John Smith"
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
       },
       {
         "id": "A-4",
@@ -29,60 +31,902 @@
       {
         "id": "A-5",
         "status": "available",
-        "type": "solo",
+        "type": "shared",
         "assignedTo": null
       },
       {
         "id": "A-6",
         "status": "available",
-        "type": "solo",
+        "type": "shared",
         "assignedTo": null
       },
       {
         "id": "A-7",
-        "status": "taken",
+        "status": "available",
         "type": "shared",
-        "assignedTo": "Sarah Johnson"
+        "assignedTo": null
       },
       {
         "id": "A-8",
         "status": "available",
-        "type": "solo",
+        "type": "shared",
         "assignedTo": null
       },
       {
         "id": "A-9",
         "status": "available",
-        "type": "solo",
+        "type": "shared",
         "assignedTo": null
       },
       {
         "id": "A-10",
         "status": "available",
-        "type": "solo",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-11",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-12",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-13",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-14",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-15",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-16",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-17",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-18",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-19",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-20",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-21",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-22",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-23",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-24",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-25",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-26",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-27",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-28",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-29",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-30",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-31",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-32",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-33",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-34",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-35",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-36",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-37",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-38",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-39",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-40",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-41",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-42",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-43",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-44",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-45",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-46",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-47",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-48",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-49",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-50",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-51",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-52",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-53",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-54",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-55",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-56",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-57",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-58",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-59",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-60",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-61",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-62",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-63",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-64",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-65",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-66",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-67",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-68",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-69",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-70",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-71",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-72",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-73",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-74",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-75",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-76",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-77",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-78",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-79",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-80",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-81",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-82",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-83",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-84",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-85",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-86",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-87",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-88",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-89",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-90",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-91",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-92",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-93",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-94",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-95",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-96",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-97",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-98",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-99",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-100",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-101",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-102",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-103",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-104",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-105",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-106",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-107",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-108",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-109",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-110",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-111",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-112",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-113",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-114",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-115",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-116",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-117",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-118",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-119",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-120",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-121",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-122",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-123",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-124",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-125",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-126",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-127",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-128",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-129",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-130",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-131",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-132",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-133",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-134",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-135",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-136",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-137",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-138",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-139",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-140",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-141",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-142",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-143",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-144",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-145",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-146",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-147",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-148",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-149",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-150",
+        "status": "available",
+        "type": "shared",
         "assignedTo": null
       }
     ]
   },
   "lotB": {
     "name": "Lot B",
+    "totalSpots": 150,
+    "description": "South Parking Lot",
     "spots": [
       {
         "id": "B-1",
         "status": "available",
-        "type": "solo",
+        "type": "shared",
         "assignedTo": null
       },
       {
         "id": "B-2",
-        "status": "taken",
-        "type": "solo",
-        "assignedTo": "Mike Davis"
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
       },
       {
         "id": "B-3",
         "status": "available",
-        "type": "solo",
+        "type": "shared",
         "assignedTo": null
       },
       {
@@ -94,102 +938,877 @@
       {
         "id": "B-5",
         "status": "available",
-        "type": "solo",
+        "type": "shared",
         "assignedTo": null
       },
       {
         "id": "B-6",
         "status": "available",
-        "type": "solo",
+        "type": "shared",
         "assignedTo": null
       },
       {
         "id": "B-7",
         "status": "available",
-        "type": "solo",
+        "type": "shared",
         "assignedTo": null
       },
       {
         "id": "B-8",
-        "status": "taken",
+        "status": "available",
         "type": "shared",
-        "assignedTo": "Emily Wilson"
+        "assignedTo": null
       },
       {
         "id": "B-9",
         "status": "available",
-        "type": "solo",
+        "type": "shared",
         "assignedTo": null
       },
       {
         "id": "B-10",
         "status": "available",
-        "type": "solo",
-        "assignedTo": null
-      }
-    ]
-  },
-  "lotC": {
-    "name": "Lot C",
-    "spots": [
-      {
-        "id": "C-1",
-        "status": "available",
-        "type": "solo",
+        "type": "shared",
         "assignedTo": null
       },
       {
-        "id": "C-2",
-        "status": "available",
-        "type": "solo",
-        "assignedTo": null
-      },
-      {
-        "id": "C-3",
+        "id": "B-11",
         "status": "available",
         "type": "shared",
         "assignedTo": null
       },
       {
-        "id": "C-4",
-        "status": "taken",
-        "type": "solo",
-        "assignedTo": "Alex Brown"
-      },
-      {
-        "id": "C-5",
+        "id": "B-12",
         "status": "available",
-        "type": "solo",
-        "assignedTo": null
-      },
-      {
-        "id": "C-6",
-        "status": "available",
-        "type": "solo",
-        "assignedTo": null
-      },
-      {
-        "id": "C-7",
-        "status": "available",
-        "type": "solo",
-        "assignedTo": null
-      },
-      {
-        "id": "C-8",
-        "status": "available",
-        "type": "solo",
-        "assignedTo": null
-      },
-      {
-        "id": "C-9",
-        "status": "taken",
         "type": "shared",
-        "assignedTo": "Jessica Martinez"
+        "assignedTo": null
       },
       {
-        "id": "C-10",
+        "id": "B-13",
         "status": "available",
-        "type": "solo",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-14",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-15",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-16",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-17",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-18",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-19",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-20",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-21",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-22",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-23",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-24",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-25",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-26",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-27",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-28",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-29",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-30",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-31",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-32",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-33",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-34",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-35",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-36",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-37",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-38",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-39",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-40",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-41",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-42",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-43",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-44",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-45",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-46",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-47",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-48",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-49",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-50",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-51",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-52",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-53",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-54",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-55",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-56",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-57",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-58",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-59",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-60",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-61",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-62",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-63",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-64",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-65",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-66",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-67",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-68",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-69",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-70",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-71",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-72",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-73",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-74",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-75",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-76",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-77",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-78",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-79",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-80",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-81",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-82",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-83",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-84",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-85",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-86",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-87",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-88",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-89",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-90",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-91",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-92",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-93",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-94",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-95",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-96",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-97",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-98",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-99",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-100",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-101",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-102",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-103",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-104",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-105",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-106",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-107",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-108",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-109",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-110",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-111",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-112",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-113",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-114",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-115",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-116",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-117",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-118",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-119",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-120",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-121",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-122",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-123",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-124",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-125",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-126",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-127",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-128",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-129",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-130",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-131",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-132",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-133",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-134",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-135",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-136",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-137",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-138",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-139",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-140",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-141",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-142",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-143",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-144",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-145",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-146",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-147",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-148",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-149",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-150",
+        "status": "available",
+        "type": "shared",
         "assignedTo": null
       }
     ]
