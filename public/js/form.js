@@ -3,6 +3,30 @@
    ============================================================
    Handles student registration form with validation,
    spot display, and data persistence to LocalStorage.
+   
+   Features:
+   - Real-time field validation
+   - Conditional field visibility (for shared spots)
+   - Comprehensive error display
+   - Data collection and serialization
+   - Reference ID generation (REF-TIMESTAMP-RANDOM)
+   - LocalStorage persistence (currentRegistration + parkingSubmissions array)
+   - Form submission handling with error recovery
+   
+   Validates:
+   - Full Name (required, text)
+   - Student ID (required, 6-8 digits)
+   - Email (required, valid format)
+   - Parking Spot (selected from parking.html)
+   - Spot Type (Solo or Shared)
+   - Partner Name (required if shared spot)
+   - Days Schedule (required if shared spot)
+   - Grade Level (required)
+   - Phone (required, 10+ digits)
+   - Terms Acceptance (required checkbox)
+   
+   @version 1.0
+   @author MHS Admin
 */
 
 // Global form state

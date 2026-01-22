@@ -1,8 +1,29 @@
 /* ============================================================
    CONFIRMATION PAGE SCRIPT
    ============================================================
-   Displays confirmation details retrieved from form submission.
-   Pulls data from localStorage and populates the page.
+   Displays confirmation details retrieved from student
+   registration form submission. Pulls data from localStorage
+   and populates the confirmation page dynamically.
+   
+   Features:
+   - Loads registration data from localStorage
+   - Displays parking assignment (lot and spot)
+   - Shows student information (name, ID, email, grade)
+   - Conditionally displays shared spot details (partner, schedule)
+   - Shows unique reference number with copy functionality
+   - Print-friendly layout with optimized print styles
+   - Responsive design for mobile/tablet/desktop
+   - Toast notifications for user feedback
+   - Error handling with fallback messages
+   
+   Data Source: currentRegistration object in localStorage
+   Structure: {fullName, studentId, email, phone, spotType, 
+              gradeLevel, parkingLot, parkingSpot, 
+              parkingPartner (if shared), userSchedule (if shared),
+              submittedAt (ISO string), referenceId}
+   
+   @version 1.0
+   @author MHS Admin
 */
 
 // Global registration data

@@ -3,6 +3,18 @@
    ============================================================
    Handles parking lot data loading, spot selection,
    lot switching, and LocalStorage persistence.
+   
+   Features:
+   - Loads parking lot data from JSON
+   - Dynamic spot rendering with status (available/taken)
+   - Supports solo and shared spot types
+   - Lot switching (A, B, C)
+   - Spot selection with visual feedback
+   - LocalStorage persistence of selected spot
+   - Availability statistics display
+   
+   @version 1.0
+   @author MHS Admin
 */
 
 // Global variables

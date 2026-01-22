@@ -1,8 +1,41 @@
 /* ============================================================
    ADMIN PAGE SCRIPT
    ============================================================
-   Handles admin authentication, session management, and
-   provides secure access to the admin dashboard.
+   Handles admin authentication, session management, 
+   dashboard display, and data management operations.
+   
+   Features:
+   - Password-protected login system (validates against config.json)
+   - Session management with localStorage persistence
+   - Automatic session validation on page load
+   - Two-screen interface (login screen and dashboard)
+   - Student registration data display and management
+   - Parking spot inventory management
+   - Real-time statistics (total/available/taken spots, registrations)
+   - Data operations: Remove students, clear spots, reset all data
+   - Data export to timestamped JSON files
+   - Lot-based filtering for parking spots
+   - Copy-to-clipboard for student information
+   - Toast notifications and confirmation dialogs
+   
+   Admin Password: "MHS2026Parking" (stored in config.json)
+   Session Storage: localStorage key 'adminSession'
+   
+   Dashboard Capabilities:
+   - Student Registration Table: Name, ID, Email, Spot, Partner, Type, Actions
+   - Parking Spot Table: ID, Lot, Status, Assignment, Type, Clear Action
+   - Statistics Cards: Total Spots, Available, Taken, Total Registrations
+   - Control Buttons: Refresh, Reset All, Export Data
+   - Lot Filter: Filter spots by Lot A/B/C or view all
+   
+   Data Management:
+   - Remove Student: Delete registration, auto-clear spot assignment
+   - Clear Spot: Remove spot assignment, delete associated student
+   - Reset All: Clear all data (requires dual confirmation)
+   - Export: Download complete data snapshot as JSON
+   
+   @version 1.0
+   @author MHS Admin
 */
 
 // Admin configuration
