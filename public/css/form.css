@@ -5,6 +5,7 @@
 #registrationForm {
   border: 2px solid var(--primary-color);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
 }
 
 .dark-mode #registrationForm {
@@ -24,8 +25,14 @@
 .form-text {
   font-size: 0.85rem;
   margin-top: 0.25rem;
+  color: #666;
 }
 
+.dark-mode .form-text {
+  color: #bbb;
+}
+
+/* Conditional sections */
 #partnerSection,
 #partnerDaysSection {
   animation: slideDown 0.3s ease;
@@ -43,10 +50,38 @@
   }
 }
 
+/* Form validation styles */
+.form-control.is-invalid,
+.form-select.is-invalid {
+  border-color: var(--danger-color);
+  background-image: none;
+}
+
+.form-control.is-invalid:focus,
+.form-select.is-invalid:focus {
+  border-color: var(--danger-color);
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+.form-control.is-valid,
+.form-select.is-valid {
+  border-color: var(--accent-color);
+}
+
+.form-control.is-valid:focus,
+.form-select.is-valid:focus {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+/* Form check input */
 .form-check-input {
   width: 1.25em;
   height: 1.25em;
   margin-top: 0.3em;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .form-check-input:checked {
@@ -54,28 +89,118 @@
   border-color: var(--primary-color);
 }
 
-.form-check-label {
-  margin-left: 0.5rem;
+.form-check-input:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.2rem rgba(0, 61, 122, 0.25);
 }
 
+.dark-mode .form-check-input:checked {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.form-check-input.is-invalid {
+  border-color: var(--danger-color);
+}
+
+.form-check-label {
+  margin-left: 0.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Form errors */
+#formErrors {
+  border-left: 4px solid var(--danger-color);
+  background-color: #fff5f5;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.dark-mode #formErrors {
+  background-color: #4a2527;
+}
+
+#formErrors strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--danger-color);
+}
+
+#formErrors ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+#formErrors li {
+  color: #666;
+  margin-bottom: 0.25rem;
+}
+
+.dark-mode #formErrors li {
+  color: #ccc;
+}
+
+/* Selected spot display */
+#selectedSpotDisplay {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Buttons */
 .btn-lg {
   padding: 0.75rem 1.5rem;
   font-weight: 600;
   letter-spacing: 0.5px;
+  transition: all 0.3s ease;
 }
 
-#formErrors {
-  border-left: 4px solid var(--danger-color);
+.btn-primary.btn-lg:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 61, 122, 0.3);
 }
 
-/* Responsive Form */
+.btn-secondary.btn-lg:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(243, 146, 0, 0.3);
+}
+
+.dark-mode .btn-primary.btn-lg:hover {
+  box-shadow: 0 6px 16px rgba(243, 146, 0, 0.3);
+}
+
+/* Info card */
+#registrationForm + div,
+.card.bg-info {
+  background-color: #d1ecf1;
+  border-left: 4px solid var(--primary-color);
+}
+
+.dark-mode .card.bg-info {
+  background-color: #1a3a5c;
+  border-left-color: var(--secondary-color);
+}
+
+/* Responsive form */
 @media (max-width: 768px) {
   #registrationForm {
     padding: 1.5rem 1rem;
   }
 
+  .form-label {
+    font-size: 0.95rem;
+  }
+
   .btn-lg {
     padding: 0.6rem 1.2rem;
     font-size: 0.95rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-check-label {
+    font-size: 0.9rem;
   }
 }

@@ -58,7 +58,7 @@
         </div>
 
         <!-- Registration Form -->
-        <form id="registrationForm" class="card">
+        <form id="registrationForm" class="card" novalidate>
           <div class="card-body">
             <!-- Full Name -->
             <div class="mb-3">
@@ -70,15 +70,16 @@
             <!-- Student ID -->
             <div class="mb-3">
               <label for="studentId" class="form-label">Student ID *</label>
-              <input type="text" class="form-control" id="studentId" placeholder="Enter your student ID" required>
-              <div class="form-text">Required field</div>
+              <input type="text" class="form-control" id="studentId" placeholder="Enter your 6-8 digit student ID" 
+                pattern="\d{6,8}" required>
+              <div class="form-text">Required field (6-8 digits)</div>
             </div>
 
             <!-- Email -->
             <div class="mb-3">
               <label for="email" class="form-label">Email Address *</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-              <div class="form-text">Required field</div>
+              <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+              <div class="form-text">Required field - we'll send confirmation here</div>
             </div>
 
             <!-- Parking Spot Type -->
@@ -86,17 +87,17 @@
               <label for="spotType" class="form-label">Parking Spot Type *</label>
               <select class="form-select" id="spotType" required>
                 <option selected disabled value="">Select spot type...</option>
-                <option value="Solo">Solo Spot</option>
-                <option value="Shared">Shared Spot (2 students)</option>
+                <option value="Solo">Solo Spot (Every Day)</option>
+                <option value="Shared">Shared Spot (Alternate Days)</option>
               </select>
-              <div class="form-text">Required field</div>
+              <div class="form-text">Required field - based on your selected spot</div>
             </div>
 
             <!-- Partner Name (if shared) -->
             <div class="mb-3" id="partnerSection" style="display: none;">
               <label for="partnerName" class="form-label">Parking Partner Name</label>
               <input type="text" class="form-control" id="partnerName" placeholder="Enter your partner's full name">
-              <div class="form-text">Enter your partner's name if sharing a spot</div>
+              <div class="form-text">Your partner shares this spot on different days</div>
             </div>
 
             <!-- Partner Days (if shared) -->
@@ -104,9 +105,10 @@
               <label for="partnerDays" class="form-label">Your Parking Days</label>
               <select class="form-select" id="partnerDays">
                 <option selected disabled value="">Select your days...</option>
-                <option value="Monday-Wednesday">Monday, Wednesday, Friday</option>
+                <option value="Monday-Wednesday-Friday">Monday, Wednesday, Friday</option>
                 <option value="Tuesday-Thursday">Tuesday, Thursday</option>
               </select>
+              <div class="form-text">Your partner parks on the opposite schedule</div>
             </div>
 
             <!-- Grade Level -->
@@ -114,7 +116,7 @@
               <label for="gradeLevel" class="form-label">Grade Level *</label>
               <select class="form-select" id="gradeLevel" required>
                 <option selected disabled value="">Select grade level...</option>
-                <option value="Senior">Senior</option>
+                <option value="Senior">Senior (Class of 2026)</option>
               </select>
               <div class="form-text">Required field</div>
             </div>
@@ -122,7 +124,9 @@
             <!-- Phone Number -->
             <div class="mb-3">
               <label for="phone" class="form-label">Phone Number</label>
-              <input type="tel" class="form-control" id="phone" placeholder="(Optional)">
+              <input type="tel" class="form-control" id="phone" placeholder="(555) 123-4567" 
+                pattern="[0-9\-\(\) ]*">
+              <div class="form-text">Optional - for emergency contact</div>
             </div>
 
             <!-- Terms & Conditions -->
@@ -137,7 +141,7 @@
             <div id="formErrors" class="alert alert-danger" role="alert" style="display: none;"></div>
 
             <!-- Submit Button -->
-            <button type="submit" class="btn btn-primary btn-lg w-100">Submit Registration</button>
+            <button type="submit" class="btn btn-primary btn-lg w-100">✓ Submit Registration</button>
           </div>
         </form>
 
