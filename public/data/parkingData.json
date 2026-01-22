@@ -1,0 +1,197 @@
+{
+  "lotA": {
+    "name": "Lot A",
+    "spots": [
+      {
+        "id": "A-1",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      },
+      {
+        "id": "A-2",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      },
+      {
+        "id": "A-3",
+        "status": "taken",
+        "type": "solo",
+        "assignedTo": "John Smith"
+      },
+      {
+        "id": "A-4",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "A-5",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      },
+      {
+        "id": "A-6",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      },
+      {
+        "id": "A-7",
+        "status": "taken",
+        "type": "shared",
+        "assignedTo": "Sarah Johnson"
+      },
+      {
+        "id": "A-8",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      },
+      {
+        "id": "A-9",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      },
+      {
+        "id": "A-10",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      }
+    ]
+  },
+  "lotB": {
+    "name": "Lot B",
+    "spots": [
+      {
+        "id": "B-1",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      },
+      {
+        "id": "B-2",
+        "status": "taken",
+        "type": "solo",
+        "assignedTo": "Mike Davis"
+      },
+      {
+        "id": "B-3",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      },
+      {
+        "id": "B-4",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "B-5",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      },
+      {
+        "id": "B-6",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      },
+      {
+        "id": "B-7",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      },
+      {
+        "id": "B-8",
+        "status": "taken",
+        "type": "shared",
+        "assignedTo": "Emily Wilson"
+      },
+      {
+        "id": "B-9",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      },
+      {
+        "id": "B-10",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      }
+    ]
+  },
+  "lotC": {
+    "name": "Lot C",
+    "spots": [
+      {
+        "id": "C-1",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      },
+      {
+        "id": "C-2",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      },
+      {
+        "id": "C-3",
+        "status": "available",
+        "type": "shared",
+        "assignedTo": null
+      },
+      {
+        "id": "C-4",
+        "status": "taken",
+        "type": "solo",
+        "assignedTo": "Alex Brown"
+      },
+      {
+        "id": "C-5",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      },
+      {
+        "id": "C-6",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      },
+      {
+        "id": "C-7",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      },
+      {
+        "id": "C-8",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      },
+      {
+        "id": "C-9",
+        "status": "taken",
+        "type": "shared",
+        "assignedTo": "Jessica Martinez"
+      },
+      {
+        "id": "C-10",
+        "status": "available",
+        "type": "solo",
+        "assignedTo": null
+      }
+    ]
+  }
+}

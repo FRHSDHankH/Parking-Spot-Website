@@ -1,0 +1,248 @@
+/* ============================================================
+   GLOBAL STYLES - Light/Dark Mode
+   ============================================================ */
+
+:root {
+  --primary-color: #003d7a;
+  --secondary-color: #f39200;
+  --accent-color: #28a745;
+  --danger-color: #dc3545;
+  --light-bg: #f8f9fa;
+  --dark-bg: #1a1a1a;
+  --light-text: #212529;
+  --dark-text: #f8f9fa;
+  --light-border: #dee2e6;
+  --dark-border: #444;
+  --card-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Mode (Default) */
+body.light-mode {
+  background-color: var(--light-bg);
+  color: var(--light-text);
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: var(--dark-bg);
+  color: var(--dark-text);
+}
+
+/* ============================================================
+   NAVBAR STYLES
+   ============================================================ */
+
+.navbar {
+  border-bottom: 2px solid var(--secondary-color);
+  transition: background-color 0.3s ease;
+}
+
+.navbar.light-mode {
+  background-color: #ffffff !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.dark-mode {
+  background-color: #2a2a2a !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: var(--primary-color) !important;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: var(--light-text) !important;
+  font-weight: 500;
+  margin-left: 1rem;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color) !important;
+}
+
+.dark-mode .nav-link {
+  color: var(--dark-text) !important;
+}
+
+.dark-mode .nav-link:hover {
+  color: var(--secondary-color) !important;
+}
+
+/* ============================================================
+   MODE TOGGLE BUTTON
+   ============================================================ */
+
+.mode-toggle {
+  background: none;
+  border: 2px solid var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  margin-left: 1rem;
+}
+
+.mode-toggle:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.dark-mode .mode-toggle {
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.dark-mode .mode-toggle:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+/* ============================================================
+   CARDS & CONTAINERS
+   ============================================================ */
+
+.card {
+  border: 1px solid var(--light-border);
+  box-shadow: var(--card-shadow);
+  transition: all 0.3s ease;
+}
+
+.light-mode .card {
+  background-color: #ffffff;
+  border-color: var(--light-border);
+}
+
+.dark-mode .card {
+  background-color: #2a2a2a;
+  border-color: var(--dark-border);
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: #002a5c;
+  border-color: #002a5c;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+  background-color: #d97e00;
+  border-color: #d97e00;
+}
+
+/* ============================================================
+   FORMS
+   ============================================================ */
+
+.form-control,
+.form-select {
+  border: 1px solid var(--light-border);
+  transition: border-color 0.2s ease;
+}
+
+.dark-mode .form-control,
+.dark-mode .form-select {
+  background-color: #333;
+  border-color: var(--dark-border);
+  color: var(--dark-text);
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.2rem rgba(0, 61, 122, 0.25);
+}
+
+.dark-mode .form-control:focus,
+.dark-mode .form-select:focus {
+  background-color: #333;
+  color: var(--dark-text);
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2rem 0;
+  margin-top: 3rem;
+}
+
+.dark-mode footer {
+  background-color: #1a1a1a;
+  border-top: 2px solid var(--secondary-color);
+}
+
+/* ============================================================
+   UTILITY CLASSES
+   ============================================================ */
+
+.text-secondary {
+  color: var(--secondary-color) !important;
+}
+
+.bg-light {
+  background-color: var(--light-bg) !important;
+}
+
+.dark-mode .bg-light {
+  background-color: #333 !important;
+}
+
+.section-title {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.dark-mode .section-title {
+  color: var(--secondary-color);
+}
+
+/* ============================================================
+   RESPONSIVE DESIGN
+   ============================================================ */
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+
+  .nav-link {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+
+  .mode-toggle {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+}

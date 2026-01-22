@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirmation - MHS Parking Portal</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="public/css/styles.css">
+  <link rel="stylesheet" href="public/css/confirmation.css">
+</head>
+
+<body class="light-mode">
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light light-mode">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">🅿️ MHS Parking Portal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="parking.html">Select Spot</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="form.html">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="admin.html">Admin</a>
+          </li>
+        </ul>
+        <button class="mode-toggle" id="modeToggle" aria-label="Toggle light/dark mode">🌙</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <!-- Success Icon -->
+        <div class="text-center mb-4">
+          <div class="success-icon">✓</div>
+          <h1 class="section-title">Registration Confirmed!</h1>
+          <p class="lead">Your parking spot has been successfully reserved.</p>
+        </div>
+
+        <!-- Confirmation Details -->
+        <div class="card mb-4">
+          <div class="card-header bg-primary text-white">
+            <h5 class="mb-0">Your Parking Assignment</h5>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <p><strong>Parking Lot:</strong></p>
+                <p id="confirmLot" class="text-secondary fs-5">Lot A</p>
+              </div>
+              <div class="col-md-6 mb-3">
+                <p><strong>Parking Spot:</strong></p>
+                <p id="confirmSpot" class="text-secondary fs-5">#A-12</p>
+              </div>
+            </div>
+
+            <hr>
+
+            <!-- Shared Spot Info -->
+            <div id="sharedSpotInfo" style="display: none;">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <p><strong>Your Parking Days:</strong></p>
+                  <p id="confirmDays" class="text-secondary">Monday, Wednesday, Friday</p>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <p><strong>Parking Partner:</strong></p>
+                  <p id="confirmPartner" class="text-secondary">John Smith</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Student Information -->
+        <div class="card mb-4">
+          <div class="card-header bg-secondary text-white">
+            <h5 class="mb-0">Student Information</h5>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <p><strong>Name:</strong></p>
+                <p id="confirmName">Student Name</p>
+              </div>
+              <div class="col-md-6 mb-3">
+                <p><strong>Student ID:</strong></p>
+                <p id="confirmId">12345678</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <p><strong>Email:</strong></p>
+                <p id="confirmEmail">student@example.com</p>
+              </div>
+              <div class="col-md-6 mb-3">
+                <p><strong>Grade Level:</strong></p>
+                <p id="confirmGrade">Senior</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Next Steps -->
+        <div class="card mb-4 bg-info bg-opacity-10">
+          <div class="card-body">
+            <h5 class="card-title">Next Steps</h5>
+            <ol class="mb-0">
+              <li>Display your confirmation email on your vehicle dashboard</li>
+              <li>Follow all parking lot rules and regulations</li>
+              <li>If you're sharing a spot, coordinate with your partner</li>
+              <li>Contact the administration office with any questions or changes</li>
+            </ol>
+          </div>
+        </div>
+
+        <!-- Important Information -->
+        <div class="alert alert-warning" role="alert">
+          <strong>Important:</strong> Please save this confirmation page or take a screenshot for your records. Your
+          parking assignment is valid for the entire school year.
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="d-grid gap-2">
+          <button class="btn btn-primary btn-lg" id="printBtn" onclick="window.print()">📄 Print Confirmation</button>
+          <a href="index.html" class="btn btn-secondary btn-lg">Back to Home</a>
+        </div>
+
+        <!-- Confirmation Reference -->
+        <div class="text-center mt-4 text-muted">
+          <p>Confirmation Reference: <code id="confirmReference">REF-2026-001</code></p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>MHS Parking Portal</h5>
+          <p>Official parking management system for Marlboro High School seniors.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white">Home</a></li>
+            <li><a href="parking.html" class="text-white">Select Parking Spot</a></li>
+            <li><a href="form.html" class="text-white">Register</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Contact</h5>
+          <p>Questions? Contact the Administration Office<br>
+            Email: parking@marlboro.edu</p>
+        </div>
+      </div>
+      <hr style="border-color: rgba(255,255,255,0.3);">
+      <p class="text-center mb-0">&copy; 2026 Marlboro High School. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Vue 3 CDN -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+  <!-- Custom Theme Script -->
+  <script src="public/js/theme.js"></script>
+
+  <!-- Confirmation Page Script -->
+  <script src="public/js/confirmation.js"></script>
+</body>
+
+</html>

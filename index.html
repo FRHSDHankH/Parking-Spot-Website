@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MHS Parking Portal - Home</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="public/css/styles.css">
+</head>
+
+<body class="light-mode">
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light light-mode">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">🅿️ MHS Parking Portal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="parking.html">Select Spot</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="form.html">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="admin.html">Admin</a>
+          </li>
+        </ul>
+        <button class="mode-toggle" id="modeToggle" aria-label="Toggle light/dark mode">🌙</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container py-5">
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <h1 class="section-title">Marlboro High School Senior Parking</h1>
+        <p class="lead">Welcome to the official parking spot selection portal for rising seniors at MHS.</p>
+        <p>Reserve your parking spot for the upcoming school year and ensure convenient parking throughout your final year
+          at Marlboro High School.</p>
+        <a href="parking.html" class="btn btn-primary btn-lg">Select Your Spot</a>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body text-center">
+            <h2 class="text-secondary">🅿️</h2>
+            <p class="card-text">Easy parking spot selection and registration</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Overview Section -->
+    <section class="mb-5">
+      <h2 class="section-title">How It Works</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-secondary">1. Select Your Spot</h5>
+              <p class="card-text">Browse our interactive parking lot map and choose your preferred parking spot from available
+                options.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-secondary">2. Fill Out Form</h5>
+              <p class="card-text">Complete your student information and confirm your partner (if applicable) for shared
+                parking spots.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-secondary">3. Get Confirmation</h5>
+              <p class="card-text">Receive instant confirmation of your parking assignment with all relevant details.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rules Section -->
+    <section class="mb-5">
+      <h2 class="section-title">Parking Rules & Guidelines</h2>
+      <div class="card">
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <strong>Valid ID Required:</strong> All parking spots require a valid MHS parking permit.
+            </li>
+            <li class="list-group-item">
+              <strong>Shared Spots:</strong> Some spots can be shared between two students on different days.
+            </li>
+            <li class="list-group-item">
+              <strong>No Transferring:</strong> Parking spots cannot be transferred or sold to other students.
+            </li>
+            <li class="list-group-item">
+              <strong>School Parking Rules Apply:</strong> All MHS parking lot rules and regulations remain in effect.
+            </li>
+            <li class="list-group-item">
+              <strong>Deadline:</strong> All parking selections must be completed by [Insert Date].
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="mb-5">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+              Can I share a parking spot?
+            </button>
+          </h2>
+          <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Yes! Certain spots are designated for sharing between two students. You'll select your assigned days when
+              registering.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faq2">
+              What if all spots are taken?
+            </button>
+          </h2>
+          <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Contact the school administration office. Limited backup spots may be available.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faq3">
+              Can I change my spot later?
+            </button>
+          </h2>
+          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Contact the administration office to request a spot change. Changes may be limited after the deadline.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>MHS Parking Portal</h5>
+          <p>Official parking management system for Marlboro High School seniors.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="parking.html" class="text-white">Select Parking Spot</a></li>
+            <li><a href="form.html" class="text-white">Register</a></li>
+            <li><a href="admin.html" class="text-white">Admin Portal</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Contact</h5>
+          <p>Questions? Contact the Administration Office<br>
+            Email: parking@marlboro.edu</p>
+        </div>
+      </div>
+      <hr style="border-color: rgba(255,255,255,0.3);">
+      <p class="text-center mb-0">&copy; 2026 Marlboro High School. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Vue 3 CDN -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+  <!-- Custom Theme Script -->
+  <script src="public/js/theme.js"></script>
+</body>
+
+</html>
